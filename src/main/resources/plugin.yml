@@ -1,0 +1,18 @@
+name: LifestealSMP
+version: '1.0.0'
+main: com.example.lifestealsmp.LifestealSMP
+api-version: '26.2'
+description: Lifesteal SMP with three one-time legendary axes.
+author: ServerOwner
+commands:
+  hearts:
+    description: Show your current heart count.
+    usage: /hearts
+  lifesteal:
+    description: Lifesteal SMP admin commands.
+    usage: /lifesteal <give|sethearts|recipe> ...
+    permission: lifestealsmp.admin
+permissions:
+  lifestealsmp.admin:
+    description: Allows Lifesteal SMP administration.
+    default: op

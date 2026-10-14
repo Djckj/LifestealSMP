@@ -1,0 +1,6 @@
+# Lifesteal SMP settings
+starting-hearts: 10
+minimum-hearts: 0
+maximum-hearts: 20
+# When a player reaches 0 max hearts after a player kill, they are banned.
+ban-at-zero-hearts: true
